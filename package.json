@@ -3,12 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@keep-network/tbtc.js": "^0.6.10",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "@truffle/contract": "^4.2.11",
+    "browser-passworder": "^2.0.3",
+    "ethers": "^5.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "umbra-js": "0.0.1",
+    "web3": "^1.2.9"
   },
   "scripts": {
     "start": "react-scripts start",
