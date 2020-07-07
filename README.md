@@ -3,6 +3,11 @@ PrivaSwap allows the bitcoin users to transition into Ethereum by not hindering 
 
 Users can swap their Bitcoins to tBTC tokens on Ethereum powered by Keep Network. These tokens are then transferred to a totally new Stealth Address via Umbra Protocol maintaining the Privacy of the User.
 
+**VIDEO DEMO:**
+[![](https://i.imgur.com/PyzIN3e.png)](https://www.youtube.com/watch?v=VVfy1jvyj-w)
+
+**LIVE DEMO:** [https://apoorvlathey.com/projects/PrivaSwap](https://apoorvlathey.com/projects/PrivaSwap)
+
 ## Benefit of using Umbra Protocol with tBTC
 Umbra offers a ton of benefits as compared to Tornado Cash:
 
