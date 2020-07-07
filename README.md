@@ -29,9 +29,11 @@ The sender uses the provided Public Key and Mulitplies it with a Random Number t
 On entering the password, Private key is unlocked from browser's local storage. The Dapp checks to decrypt all the events emitted, using this Private Key. On successfully finding the corresponding event, we get the Random Number. Using this Random Number and our Private Key, the Private Key of Stealth Address is generated.
 
 This generated Private Key can be directly imported into Metamask:
+
 ![](https://i.imgur.com/HrBXF3M.png)
 
 And there you have your Tokens:
+
 ![](https://i.imgur.com/gYd0XP8.png)
 
 ## Transaction Overview for third party
@@ -48,3 +50,8 @@ In our transaction only the sender and receiver are aware of receiver's identity
 ## What's in for the Future of PrivaSwap?
 * To use tbtc.js to mint tBTC which get directly transferred to the Stealth Address via our Smart Contract.
 * Integrate GSN to allow sending of tokens from Stealth Address to any other address.
+
+## Setup the Project
+1. Clone the repo
+2. `npm i` and `npm run start`
+3. Switch Metamask to Ropsten and head over to `localhost:3000`

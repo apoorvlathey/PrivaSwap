@@ -1,0 +1,115 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_tbtc",
+				"type": "address"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"internalType": "bytes16",
+				"name": "iv",
+				"type": "bytes16"
+			},
+			{
+				"indexed": false,
+				"internalType": "bytes32",
+				"name": "pkx",
+				"type": "bytes32"
+			},
+			{
+				"indexed": false,
+				"internalType": "bytes32",
+				"name": "pky",
+				"type": "bytes32"
+			},
+			{
+				"indexed": false,
+				"internalType": "bytes32",
+				"name": "ct0",
+				"type": "bytes32"
+			},
+			{
+				"indexed": false,
+				"internalType": "bytes32",
+				"name": "ct1",
+				"type": "bytes32"
+			},
+			{
+				"indexed": false,
+				"internalType": "bytes32",
+				"name": "ct2",
+				"type": "bytes32"
+			},
+			{
+				"indexed": false,
+				"internalType": "bytes32",
+				"name": "mac",
+				"type": "bytes32"
+			}
+		],
+		"name": "sendTBTC",
+		"type": "event"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address payable",
+				"name": "_toWhom",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_qty",
+				"type": "uint256"
+			},
+			{
+				"internalType": "bytes16",
+				"name": "iv",
+				"type": "bytes16"
+			},
+			{
+				"internalType": "bytes32",
+				"name": "pkx",
+				"type": "bytes32"
+			},
+			{
+				"internalType": "bytes32",
+				"name": "pky",
+				"type": "bytes32"
+			},
+			{
+				"internalType": "bytes32",
+				"name": "ct0",
+				"type": "bytes32"
+			},
+			{
+				"internalType": "bytes32",
+				"name": "ct1",
+				"type": "bytes32"
+			},
+			{
+				"internalType": "bytes32",
+				"name": "ct2",
+				"type": "bytes32"
+			},
+			{
+				"internalType": "bytes32",
+				"name": "mac",
+				"type": "bytes32"
+			}
+		],
+		"name": "transferTBTC",
+		"outputs": [],
+		"stateMutability": "payable",
+		"type": "function"
+	}
+]
