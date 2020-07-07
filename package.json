@@ -10,9 +10,12 @@
     "@truffle/contract": "^4.2.11",
     "browser-passworder": "^2.0.3",
     "ethers": "^5.0.4",
+    "grommet": "^2.14.0",
+    "polished": "^3.6.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
+    "styled-components": "^5.1.1",
     "umbra-js": "0.0.1",
     "web3": "^1.2.9"
   },
